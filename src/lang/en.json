@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "title": "Landing Starter Kit"
+  },
+  "language": {
+    "switchLabel": "Language",
+    "en": "EN",
+    "es": "ES"
+  },
+  "logo": {
+    "subtitle": "Starter Landing Kit"
+  },
+  "header": {
+    "homeAria": "Go to homepage",
+    "navAria": "Primary navigation"
+  },
+  "navigation": {
+    "home": "Home",
+    "components": "Components",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "business": {
+    "phoneHref": "9737919770",
+    "phoneDisplay": "973-791-9770"
+  },
+  "mainNav": {
+    "categories": {
+      "skinConditions": "Skin Conditions",
+      "procedures": "Procedures",
+      "laserEnergy": "Laser & Energy",
+      "esthetics": "Esthetics"
+    },
+    "options": {
+      "option1": "Option 1",
+      "option2": "Option 2",
+      "option3": "Option 3",
+      "option4": "Option 4"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Build premium landing pages faster with a reusable starter",
+      "description": "This white-label app includes routing, design tokens, responsive blocks, and reusable components ready to adapt for any business niche.",
+      "cta": "Start New Landing",
+      "imageAlt": "Starter hero"
+    },
+    "servicesBlock": {
+      "title": "Reusable Service Cards Carousel",
+      "description": "Autoplay + drag loop carousel that you can reuse in landing pages."
+    },
+    "testimonialsBlock": {
+      "title": "Testimonials Section",
+      "description": "Simple reusable card grid for social proof."
+    }
+  },
+  "contactBlock": {
+    "title": "Contact Block",
+    "description": "Reusable contact section with form + map.",
+    "fields": {
+      "fullName": "Full Name*",
+      "phone": "Phone*",
+      "email": "Email*",
+      "interestedIn": "Interested in",
+      "message": "Message"
+    },
+    "options": {
+      "option1": "Option 1",
+      "option2": "Option 2"
+    },
+    "submit": "Submit",
+    "mapTitle": "Demo map"
+  },
+  "pages": {
+    "components": {
+      "title": "Components Showcase",
+      "description": "Reusable primitives and composites.",
+      "buttonPrimary": "Primary Button",
+      "buttonSecondary": "Secondary Button",
+      "buttonOutline": "Outline Button"
+    },
+    "notFound": {
+      "title": "404 - Page Not Found",
+      "description": "This route is not available in the starter kit.",
+      "backHome": "Back Home"
+    }
+  },
+  "footer": {
+    "title": "Landing Starter Kit",
+    "description": "Reusable React + Tailwind + Router foundation for fast client delivery.",
+    "highlights": {
+      "cloneBuild": "Ready for clone-and-build workflow",
+      "tokenBased": "Token-based theming",
+      "responsive": "Responsive defaults"
+    },
+    "rights": "© 2026 Landing Starter Kit. Built for reusable freelance workflows."
+  },
+  "catalog": {
+    "services": {
+      "landingArchitecture": {
+        "title": "Landing Architecture",
+        "description": "Prebuilt sections to launch polished one-page and multipage websites."
+      },
+      "designTokens": {
+        "title": "Design Tokens",
+        "description": "Centralized colors and spacing to rebrand projects in minutes."
+      },
+      "reusableComponents": {
+        "title": "Reusable Components",
+        "description": "Buttons, cards, headers, and content blocks built for speed."
+      },
+      "responsiveFirst": {
+        "title": "Responsive First",
+        "description": "Layouts tuned for mobile, tablet, and desktop from day one."
+      },
+      "showcasePage": {
+        "title": "Showcase Page",
+        "description": "A /components view to audit reusable UI before project delivery."
+      }
+    },
+    "testimonials": {
+      "projectOwner": {
+        "name": "Project Owner",
+        "text": "The starter kit reduced setup time and gave us a clean structure for future client pages."
+      },
+      "frontendDeveloper": {
+        "name": "Frontend Developer",
+        "text": "Reusable blocks and tokens made branding changes extremely fast."
+      },
+      "freelanceTeam": {
+        "name": "Freelance Team",
+        "text": "We now clone one repo and ship customized landings in a fraction of the time."
+      }
+    }
+  }
+}

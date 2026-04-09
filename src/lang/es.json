@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "title": "Kit Inicial de Landing"
+  },
+  "language": {
+    "switchLabel": "Idioma",
+    "en": "EN",
+    "es": "ES"
+  },
+  "logo": {
+    "subtitle": "Kit Inicial de Landing"
+  },
+  "header": {
+    "homeAria": "Ir al inicio",
+    "navAria": "Navegación principal"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "components": "Componentes",
+    "about": "Acerca",
+    "contact": "Contacto"
+  },
+  "business": {
+    "phoneHref": "9737919770",
+    "phoneDisplay": "973-791-9770"
+  },
+  "mainNav": {
+    "categories": {
+      "skinConditions": "Condiciones de la piel",
+      "procedures": "Procedimientos",
+      "laserEnergy": "Láser y Energía",
+      "esthetics": "Estética"
+    },
+    "options": {
+      "option1": "Opción 1",
+      "option2": "Opción 2",
+      "option3": "Opción 3",
+      "option4": "Opción 4"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Construye landing pages premium más rápido con un starter reutilizable",
+      "description": "Esta app white-label incluye enrutamiento, tokens de diseño, bloques responsive y componentes reutilizables listos para cualquier nicho de negocio.",
+      "cta": "Iniciar Nuevo Landing",
+      "imageAlt": "Hero del starter"
+    },
+    "servicesBlock": {
+      "title": "Carrusel Reutilizable de Tarjetas de Servicio",
+      "description": "Carrusel con autoplay y arrastre que puedes reutilizar en páginas landing."
+    },
+    "testimonialsBlock": {
+      "title": "Sección de Testimonios",
+      "description": "Grid simple y reutilizable para prueba social."
+    }
+  },
+  "contactBlock": {
+    "title": "Bloque de Contacto",
+    "description": "Sección de contacto reutilizable con formulario y mapa.",
+    "fields": {
+      "fullName": "Nombre Completo*",
+      "phone": "Teléfono*",
+      "email": "Correo Electrónico*",
+      "interestedIn": "Interesado en",
+      "message": "Mensaje"
+    },
+    "options": {
+      "option1": "Opción 1",
+      "option2": "Opción 2"
+    },
+    "submit": "Enviar",
+    "mapTitle": "Mapa demo"
+  },
+  "pages": {
+    "components": {
+      "title": "Vitrina de Componentes",
+      "description": "Primitivos y compuestos reutilizables.",
+      "buttonPrimary": "Botón Primario",
+      "buttonSecondary": "Botón Secundario",
+      "buttonOutline": "Botón Outline"
+    },
+    "notFound": {
+      "title": "404 - Página No Encontrada",
+      "description": "Esta ruta no está disponible en el starter kit.",
+      "backHome": "Volver al Inicio"
+    }
+  },
+  "footer": {
+    "title": "Kit Inicial de Landing",
+    "description": "Base reutilizable con React + Tailwind + Router para entregar proyectos de clientes más rápido.",
+    "highlights": {
+      "cloneBuild": "Listo para flujo clonar-y-construir",
+      "tokenBased": "Tematización basada en tokens",
+      "responsive": "Responsive por defecto"
+    },
+    "rights": "© 2026 Kit Inicial de Landing. Construido para flujos freelance reutilizables."
+  },
+  "catalog": {
+    "services": {
+      "landingArchitecture": {
+        "title": "Arquitectura de Landing",
+        "description": "Secciones preconstruidas para lanzar sitios de una o múltiples páginas con acabado profesional."
+      },
+      "designTokens": {
+        "title": "Tokens de Diseño",
+        "description": "Colores y espaciado centralizados para rebranding en minutos."
+      },
+      "reusableComponents": {
+        "title": "Componentes Reutilizables",
+        "description": "Botones, tarjetas, headers y bloques de contenido construidos para velocidad."
+      },
+      "responsiveFirst": {
+        "title": "Responsive Primero",
+        "description": "Layouts ajustados para móvil, tablet y desktop desde el día uno."
+      },
+      "showcasePage": {
+        "title": "Página de Showcase",
+        "description": "Una vista /components para auditar UI reutilizable antes de la entrega."
+      }
+    },
+    "testimonials": {
+      "projectOwner": {
+        "name": "Dueño del Proyecto",
+        "text": "El starter kit redujo tiempos de setup y nos dio una estructura limpia para futuras páginas de clientes."
+      },
+      "frontendDeveloper": {
+        "name": "Desarrollador Frontend",
+        "text": "Los bloques reutilizables y tokens hicieron que los cambios de branding fueran muy rápidos."
+      },
+      "freelanceTeam": {
+        "name": "Equipo Freelance",
+        "text": "Ahora clonamos un solo repositorio y entregamos landings personalizados en una fracción del tiempo."
+      }
+    }
+  }
+}

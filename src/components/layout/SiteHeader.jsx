@@ -1,26 +1,34 @@
 import PhoneIcon from "@mui/icons-material/Phone";
 import { NavLink } from "react-router-dom";
 import { mainNavDropdowns, topNavLinks } from "../../data/navigation";
+import { useI18n } from "../../lang/i18n";
 import Container from "../primitives/Container";
 import BrandLogo from "./BrandLogo";
 import MainNavDropdown from "./MainNavDropdown";
 
 function SiteHeader() {
+  const { t } = useI18n();
+
   return (
     <header className="site-header">
       <Container className="header-top">
-        <NavLink to="/">
+        <NavLink to="/" aria-label={t("header.homeAria")}>
           <BrandLogo />
         </NavLink>
 
-        <nav className="header-links">
+        <nav className="header-links" aria-label={t("header.navAria")}>
           {topNavLinks.map((link) => (
-            <NavLink key={link.label} to={link.to} className={({ isActive }) => (isActive ? "active" : "")}> 
-              {link.label}
+            <NavLink
+              key={link.key}
+              to={link.to}
+              end={link.to === "/"}
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
+              {t(`navigation.${link.key}`)}
             </NavLink>
           ))}
-          <a href="tel:9737919770" style={{ color: "var(--color-accent)", fontWeight: 700 }}>
-            <PhoneIcon sx={{ fontSize: 15, marginBottom: "-2px" }} /> 973-791-9770
+          <a className="header-phone" href={`tel:${t("business.phoneHref")}`}>
+            <PhoneIcon sx={{ fontSize: 15, marginBottom: "-2px" }} /> {t("business.phoneDisplay")}
           </a>
         </nav>
       </Container>
@@ -28,7 +36,11 @@ function SiteHeader() {
       <div className="main-nav-wrap">
         <Container className="main-nav">
           {mainNavDropdowns.map((entry) => (
-            <MainNavDropdown key={entry.label} label={entry.label} options={entry.options} />
+            <MainNavDropdown
+              key={entry.key}
+              label={t(`mainNav.categories.${entry.key}`)}
+              options={entry.optionKeys.map((optionKey) => t(`mainNav.options.${optionKey}`))}
+            />
           ))}
         </Container>
       </div>

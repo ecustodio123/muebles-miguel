@@ -1,17 +1,20 @@
-import { heroContent } from "../../data/demoContent";
+import { heroImage } from "../../data/demoContent";
+import { useI18n } from "../../lang/i18n";
 import Button from "../primitives/Button";
 import Container from "../primitives/Container";
 
 function HeroBlock() {
+  const { t } = useI18n();
+
   return (
     <section className="page-hero">
       <Container className="page-hero__inner">
         <div>
-          <h1>{heroContent.title}</h1>
-          <p>{heroContent.description}</p>
-          <Button variant="outline">{heroContent.cta}</Button>
+          <h1>{t("home.hero.title")}</h1>
+          <p>{t("home.hero.description")}</p>
+          <Button variant="outline">{t("home.hero.cta")}</Button>
         </div>
-        <img src={heroContent.image} alt="Starter hero" />
+        <img src={heroImage} alt={t("home.hero.imageAlt")} />
       </Container>
     </section>
   );

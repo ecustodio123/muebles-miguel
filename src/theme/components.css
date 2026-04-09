@@ -83,6 +83,88 @@
   font-weight: 600;
 }
 
+.header-phone {
+  color: var(--color-accent);
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.language-fab {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 45;
+  display: grid;
+  justify-items: end;
+  gap: 0.5rem;
+}
+
+.language-fab__trigger {
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: var(--color-surface);
+  color: var(--color-primary);
+  font-family: inherit;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.55rem 0.85rem;
+  cursor: pointer;
+  box-shadow: 0 10px 22px rgba(var(--color-primary-rgb), 0.18);
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.language-fab__trigger:hover {
+  transform: translateY(-2px);
+  border-color: var(--color-accent);
+}
+
+.language-fab__menu {
+  width: 114px;
+  border: 1px solid var(--color-border);
+  border-radius: 0.8rem;
+  background: var(--color-surface);
+  box-shadow: 0 12px 28px rgba(var(--color-primary-rgb), 0.18);
+  padding: 0.32rem;
+  display: grid;
+  gap: 0.2rem;
+  opacity: 0;
+  transform: translateY(6px);
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.language-fab.is-open .language-fab__menu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.language-fab__option {
+  border: 0;
+  border-radius: 0.55rem;
+  background: transparent;
+  color: var(--color-text-primary);
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 0.42rem 0.55rem;
+  cursor: pointer;
+}
+
+.language-fab__option:hover {
+  background: rgba(var(--color-primary-rgb), 0.08);
+}
+
+.language-fab__option.is-active {
+  background: var(--color-accent);
+  color: #ffffff;
+}
+
 .main-nav-wrap {
   border-top: 1px solid var(--color-border-soft);
 }
@@ -365,6 +447,11 @@
   .header-links {
     flex-wrap: wrap;
     font-size: 0.9rem;
+  }
+
+  .language-fab {
+    right: 0.75rem;
+    bottom: 0.75rem;
   }
 
   .main-nav-wrap {

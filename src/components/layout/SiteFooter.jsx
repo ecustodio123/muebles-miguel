@@ -1,35 +1,38 @@
 import { NavLink } from "react-router-dom";
+import { useI18n } from "../../lang/i18n";
 import Container from "../primitives/Container";
 
 function SiteFooter() {
+  const { t } = useI18n();
+
   return (
     <footer className="footer">
       <Container className="footer-grid">
         <div>
-          <h3 style={{ marginTop: 0 }}>Landing Starter Kit</h3>
-          <p>Reusable React + Tailwind + Router foundation for fast client delivery.</p>
+          <h3 style={{ marginTop: 0 }}>{t("footer.title")}</h3>
+          <p>{t("footer.description")}</p>
         </div>
         <ul className="footer-links">
           <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/">{t("navigation.home")}</NavLink>
           </li>
           <li>
-            <NavLink to="/components">Components</NavLink>
+            <NavLink to="/components">{t("navigation.components")}</NavLink>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#">{t("navigation.about")}</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#">{t("navigation.contact")}</a>
           </li>
         </ul>
         <ul className="footer-links">
-          <li>Ready for clone-and-build workflow</li>
-          <li>Token-based theming</li>
-          <li>Responsive defaults</li>
+          <li>{t("footer.highlights.cloneBuild")}</li>
+          <li>{t("footer.highlights.tokenBased")}</li>
+          <li>{t("footer.highlights.responsive")}</li>
         </ul>
       </Container>
-      <div className="footer-bottom">© 2026 Landing Starter Kit. Built for reusable freelance workflows.</div>
+      <div className="footer-bottom">{t("footer.rights")}</div>
     </footer>
   );
 }
