@@ -38,6 +38,12 @@
       "option4": "Opción 4"
     }
   },
+  "carousel": {
+    "previous": "Mostrar anterior",
+    "next": "Mostrar siguiente",
+    "controls": "Control del carrusel",
+    "goToView": "Ir a la vista"
+  },
   "home": {
     "hero": {
       "title": "Construye landing pages premium más rápido con un starter reutilizable",
@@ -66,7 +72,14 @@
     },
     "options": {
       "option1": "Opción 1",
-      "option2": "Opción 2"
+      "option2": "Opción 2",
+      "option3": "Opción 3"
+    },
+    "sending": "Enviando...",
+    "feedback": {
+      "success": "Mensaje enviado correctamente. Te contactaremos pronto.",
+      "error": "No se pudo enviar el mensaje. Inténtalo de nuevo en unos minutos.",
+      "configError": "Faltan variables de entorno de EmailJS."
     },
     "submit": "Enviar",
     "mapTitle": "Mapa demo"

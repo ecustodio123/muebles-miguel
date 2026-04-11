@@ -38,6 +38,12 @@
       "option4": "Option 4"
     }
   },
+  "carousel": {
+    "previous": "Show previous",
+    "next": "Show next",
+    "controls": "Carousel controls",
+    "goToView": "Go to view"
+  },
   "home": {
     "hero": {
       "title": "Build premium landing pages faster with a reusable starter",
@@ -66,7 +72,14 @@
     },
     "options": {
       "option1": "Option 1",
-      "option2": "Option 2"
+      "option2": "Option 2",
+      "option3": "Option 3"
+    },
+    "sending": "Sending...",
+    "feedback": {
+      "success": "Message sent successfully. We will contact you soon.",
+      "error": "We could not send your message. Please try again in a moment.",
+      "configError": "EmailJS environment variables are missing."
     },
     "submit": "Submit",
     "mapTitle": "Demo map"

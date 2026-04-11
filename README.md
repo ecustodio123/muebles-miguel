@@ -40,6 +40,44 @@ npm run dev
 npm run build
 ```
 
+## EmailJS Setup (white-label)
+
+Este starter incluye integración de EmailJS en `ContactBlock`.
+
+1. Copia variables de entorno:
+
+```bash
+cp .env.example .env.local
+```
+
+2. Completa tus valores en `.env.local`:
+
+```env
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+3. Reinicia el servidor (`npm run dev`) si estaba corriendo.
+
+Notas:
+
+- `.env.local` no se versiona.
+- `.env.example` sí se versiona para mantener la plantilla.
+- Si falta configuración, el formulario muestra un mensaje de `configError`.
+
+## Reusable Components Detected From `aliaga-salud`
+
+Componentes recomendados para portar cuando un nuevo proyecto lo necesite:
+
+- `TrustStatsBlock`: métricas de confianza para secciones above-the-fold.
+- `CarePathBlock`: pasos del proceso (ideal para servicios médicos/consultoría).
+- `FaqBlock`: preguntas frecuentes reutilizables por rubro.
+- `StaffBlock` + `StaffCard`: perfiles de equipo/profesionales.
+- `ContactBlock` variante con panel de canales (teléfono, WhatsApp, dirección, horario).
+
+Estos bloques son opcionales y deben activarse según el tipo de landing que estés construyendo.
+
 ## Deploy to Cloudflare Pages
 
 - Framework preset: `Vite`
