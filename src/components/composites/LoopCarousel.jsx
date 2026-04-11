@@ -6,14 +6,37 @@ function LoopCarousel({ items, renderItem, visibleItems = 4, autoplayMs = 2800 }
   const [startIndex, setStartIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
   const [isDragging, setIsDragging] = useState(false);
+  const [effectiveVisibleItems, setEffectiveVisibleItems] = useState(visibleItems);
   const startXRef = useRef(0);
   const dragThreshold = 45;
 
   const total = items.length;
-  const step = Math.max(1, visibleItems);
-  const pageCount = total > 0 ? Math.max(1, Math.ceil(total / visibleItems)) : 0;
+  const step = Math.max(1, effectiveVisibleItems);
+  const pageCount = total > 0 ? Math.max(1, Math.ceil(total / effectiveVisibleItems)) : 0;
   const canNavigate = pageCount > 1;
   const activePage = total > 0 ? Math.floor(startIndex / step) % pageCount : 0;
+
+  useEffect(() => {
+    const resolveVisibleItems = () => {
+      if (window.innerWidth <= 720) {
+        return 1;
+      }
+
+      if (window.innerWidth <= 1024) {
+        return Math.min(2, visibleItems);
+      }
+
+      return visibleItems;
+    };
+
+    const applyVisibleItems = () => {
+      setEffectiveVisibleItems(resolveVisibleItems());
+    };
+
+    applyVisibleItems();
+    window.addEventListener("resize", applyVisibleItems);
+    return () => window.removeEventListener("resize", applyVisibleItems);
+  }, [visibleItems]);
 
   useEffect(() => {
     if (!canNavigate || isPaused) {
@@ -32,11 +55,11 @@ function LoopCarousel({ items, renderItem, visibleItems = 4, autoplayMs = 2800 }
       return [];
     }
 
-    return Array.from({ length: visibleItems }, (_, offset) => {
+    return Array.from({ length: effectiveVisibleItems }, (_, offset) => {
       const index = (startIndex + offset) % total;
       return { item: items[index], index: `${index}-${offset}-${startIndex}` };
     });
-  }, [items, startIndex, total, visibleItems]);
+  }, [effectiveVisibleItems, items, startIndex, total]);
 
   const movePrev = () => {
     if (!canNavigate) {
