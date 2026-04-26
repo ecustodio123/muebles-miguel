@@ -16,7 +16,7 @@ function ServicesBlock2({
   const resolvedPrimaryCtaHref = primaryCtaHref ?? t("business.whatsappHref");
 
   return (
-    <section className={sectionClassName}>
+    <section id="services" className={sectionClassName}>
       <Container>
         <SectionHeading title={t("home.servicesBlock2.title")} description={t("home.servicesBlock2.description")} />
 

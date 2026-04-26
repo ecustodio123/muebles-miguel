@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Kit Inicial de Landing"
+    "title": "Mubles Miguel | Lavado profesional de muebles"
   },
   "language": {
     "switchLabel": "Idioma",
@@ -8,16 +8,16 @@
     "es": "ES"
   },
   "logo": {
-    "subtitle": "Kit Inicial de Landing"
+    "subtitle": "Lavado de muebles"
   },
   "header": {
     "homeAria": "Ir al inicio",
     "navAria": "Navegación principal"
   },
   "navigation": {
-    "home": "Inicio",
-    "components": "Componentes",
-    "about": "Acerca",
+    "home": "Home",
+    "services": "Servicios",
+    "about": "Nosotros",
     "contact": "Contacto"
   },
   "social": {
@@ -26,27 +26,29 @@
     "tiktok": "TikTok"
   },
   "business": {
-    "phoneHref": "9737919770",
-    "phoneDisplay": "973-791-9770",
-    "whatsappHref": "https://wa.me/19737919770?text=Hola%2C%20quiero%20agendar%20una%20cita.",
+    "phoneHref": "937690000",
+    "phoneDisplay": "937 690 000",
+    "whatsappHref": "https://wa.me/51937690000?text=Hola%2C%20quiero%20cotizar%20un%20lavado%20de%20muebles.",
     "social": {
-      "facebook": "https://www.facebook.com/",
-      "instagram": "https://www.instagram.com/",
-      "tiktok": "https://www.tiktok.com/"
+      "facebook": "https://www.facebook.com/miguel.vicente.quiroz",
+      "instagram": "https://www.instagram.com/miguelvq30?igsh=ZjQycHY1bWxqYzRk",
+      "tiktok": "https://www.tiktok.com/@mvq30?_r=1&_t=ZS-95qYjzLAmFJ"
     }
   },
   "mainNav": {
     "categories": {
-      "skinConditions": "Condiciones de la piel",
-      "procedures": "Procedimientos",
-      "laserEnergy": "Láser y Energía",
-      "esthetics": "Estética"
+      "cleaning": "Tipo de limpieza",
+      "coverage": "Atención"
     },
     "options": {
-      "option1": "Opción 1",
-      "option2": "Opción 2",
-      "option3": "Opción 3",
-      "option4": "Opción 4"
+      "option1": "Sofás y seccionales",
+      "option2": "Sillas y comedor",
+      "option3": "Colchones",
+      "option4": "Alfombras",
+      "option5": "Servicio a domicilio",
+      "option6": "Cotización por WhatsApp",
+      "option7": "Hogares",
+      "option8": "Oficinas"
     }
   },
   "carousel": {
@@ -57,73 +59,73 @@
   },
   "home": {
     "hero": {
-      "title": "Construye landing pages premium más rápido con un starter reutilizable",
-      "description": "Esta app white-label incluye enrutamiento, tokens de diseño, bloques responsive y componentes reutilizables listos para cualquier nicho de negocio.",
-      "cta": "Iniciar Nuevo Landing",
-      "imageAlt": "Hero del starter"
+      "title": "Lavado profesional de muebles a domicilio",
+      "description": "Mubles Miguel limpia sofás, sillas, colchones y tapicería con un proceso cuidadoso, práctico y pensado para recuperar la frescura de tu hogar.",
+      "cta": "Cotizar por WhatsApp",
+      "imageAlt": "Sala limpia con sofá después de un servicio de lavado de muebles"
     },
     "hero2": {
-      "kicker": "Hero Alternativo Reutilizable",
-      "title": "Hero visual con variantes por prop",
-      "description": "Usa variant=\"a\" o variant=\"b\" para cambiar el estilo sin duplicar componentes, manteniendo una base lista para white-label.",
-      "cta": "Agendar una consulta",
-      "imageAlt": "Persona sonriendo en bloque hero alternativo",
-      "badgeValue": "15+",
-      "badgeLabel": "Años de experiencia"
+      "kicker": "Servicio a domicilio",
+      "title": "Tapicería limpia sin complicarte el día",
+      "description": "Agendamos una visita, revisamos el material y aplicamos el proceso adecuado para cada mueble.",
+      "cta": "Agendar servicio",
+      "imageAlt": "Especialista en lavado de muebles",
+      "badgeValue": "24h",
+      "badgeLabel": "Respuesta rápida"
     },
     "aboutTeaser": {
-      "kicker": "Bloque Reutilizable",
-      "title": "About teaser para presentar propuesta de valor",
-      "description": "Este bloque resume fortalezas del negocio y permite llevar al usuario a una página de detalle.",
-      "listAria": "Fortalezas del bloque about teaser",
-      "point1": "Compatible con enfoque white-label y multiindustria",
-      "point2": "Texto e imagen desacoplados para adaptación rápida",
-      "point3": "CTA configurable para redirigir al flujo que necesites",
-      "cta": "Ver más componentes",
-      "imageAlt": "Equipo atendiendo a un cliente satisfecho"
+      "kicker": "Nosotros",
+      "title": "Cuidamos tus muebles como parte de tu casa",
+      "description": "Somos un servicio cercano y responsable enfocado en resultados visibles, trato claro y limpieza profunda de tapicería.",
+      "listAria": "Fortalezas de Mubles Miguel",
+      "point1": "Evaluación del tipo de tela antes de iniciar",
+      "point2": "Proceso ordenado para reducir humedad y residuos",
+      "point3": "Comunicación directa para cotizar y coordinar horarios",
+      "cta": "Contactar ahora",
+      "imageAlt": "Sala con muebles limpios y ambiente minimalista"
     },
     "servicesBlock2": {
-      "title": "Servicios Destacados (Bloque Reutilizable)",
-      "description": "Grid de servicios enriquecido con puntos clave y chips de soporte.",
-      "intro": "Úsalo cuando necesites explicar servicios de forma clara y escalable, con estructura lista para catálogos más largos.",
-      "supportTitle": "Servicios complementarios",
-      "cta": "Hablar por WhatsApp",
-      "allServicesCta": "Ver todos los componentes"
+      "title": "Servicios de lavado de muebles",
+      "description": "Limpieza profunda para piezas de uso diario en casas, apartamentos y espacios de trabajo.",
+      "intro": "Cada servicio se adapta al tipo de tela, nivel de uso y condición del mueble para cuidar la superficie y mejorar su apariencia.",
+      "supportTitle": "También incluimos",
+      "cta": "Solicitar cotización",
+      "allServicesCta": "Ver todos los servicios"
     },
     "ctaStrip": {
-      "kicker": "Bloque CTA",
-      "title": "Franja de llamada a la acción para cierre de conversión",
-      "description": "Ideal para empujar agenda rápida por WhatsApp o llamada telefónica sin agregar fricción.",
-      "primaryCta": "Reservar por WhatsApp",
+      "kicker": "Cotización rápida",
+      "title": "Envía una foto y recibe orientación para tu servicio",
+      "description": "Cuéntanos qué mueble necesitas limpiar, tu zona y el horario ideal. Te respondemos con una recomendación clara.",
+      "primaryCta": "Escribir por WhatsApp",
       "secondaryCta": "Llamar ahora"
     },
     "socialLinksBlock": {
-      "title": "Social Links (Componente Reutilizable)",
-      "description": "Botonera de redes lista para usar en footer, contacto o secciones promocionales."
+      "title": "Redes sociales",
+      "description": "Síguenos para ver resultados y promociones."
     },
     "servicesBlock": {
-      "title": "Carrusel Reutilizable de Tarjetas de Servicio",
-      "description": "Carrusel con navegación por clic y arrastre, con autoplay en mobile, reutilizable para páginas landing."
+      "title": "Limpieza para cada espacio",
+      "description": "Servicios frecuentes que ayudan a mantener tus muebles frescos, limpios y listos para el uso diario."
     },
     "testimonialsBlock": {
-      "title": "Sección de Testimonios",
-      "description": "Grid simple y reutilizable para prueba social."
+      "title": "Clientes satisfechos",
+      "description": "Opiniones de personas que confiaron en Mubles Miguel para renovar sus espacios."
     }
   },
   "contactBlock": {
-    "title": "Bloque de Contacto",
-    "description": "Sección de contacto reutilizable con formulario y mapa.",
+    "title": "Contacto",
+    "description": "Completa el formulario o escríbenos por WhatsApp para cotizar tu lavado de muebles.",
     "fields": {
-      "fullName": "Nombre Completo*",
+      "fullName": "Nombre completo*",
       "phone": "Teléfono*",
-      "email": "Correo Electrónico*",
-      "interestedIn": "Interesado en",
+      "email": "Correo electrónico*",
+      "interestedIn": "Servicio de interés",
       "message": "Mensaje"
     },
     "options": {
-      "option1": "Opción 1",
-      "option2": "Opción 2",
-      "option3": "Opción 3"
+      "option1": "Lavado de sofá",
+      "option2": "Lavado de colchón",
+      "option3": "Lavado de sillas o alfombra"
     },
     "sending": "Enviando...",
     "feedback": {
@@ -131,8 +133,8 @@
       "error": "No se pudo enviar el mensaje. Inténtalo de nuevo en unos minutos.",
       "configError": "Faltan variables de entorno de EmailJS."
     },
-    "submit": "Enviar",
-    "mapTitle": "Mapa demo"
+    "submit": "Enviar solicitud",
+    "mapTitle": "Área de servicio"
   },
   "pages": {
     "components": {
@@ -144,108 +146,93 @@
     },
     "notFound": {
       "title": "404 - Página No Encontrada",
-      "description": "Esta ruta no está disponible en el starter kit.",
+      "description": "Esta ruta no está disponible.",
       "backHome": "Volver al Inicio"
     }
   },
   "footer": {
-    "title": "Kit Inicial de Landing",
-    "description": "Base reutilizable con React + Tailwind + Router para entregar proyectos de clientes más rápido.",
+    "title": "Mubles Miguel",
+    "description": "Lavado profesional de muebles, tapicería y superficies textiles con atención clara y servicio a domicilio.",
     "highlights": {
-      "cloneBuild": "Listo para flujo clonar-y-construir",
-      "tokenBased": "Tematización basada en tokens",
-      "responsive": "Responsive por defecto"
+      "cloneBuild": "Servicio a domicilio",
+      "tokenBased": "Cotización por WhatsApp",
+      "responsive": "Atención para hogares y oficinas"
     },
-    "rights": "© 2026 Kit Inicial de Landing. Construido para flujos freelance reutilizables."
+    "rights": "© 2026 Mubles Miguel. Todos los derechos reservados."
   },
   "catalog": {
     "serviceShowcase": {
-      "generalConsultation": {
-        "title": "Consulta General",
-        "description": "Evaluación integral para identificar el estado actual y necesidades prioritarias.",
-        "point1": "Chequeo clínico inicial",
-        "point2": "Orientación de tratamiento",
-        "point3": "Plan de seguimiento recomendado"
+      "deepUpholsteryWash": {
+        "title": "Lavado profundo de tapicería",
+        "description": "Limpieza de sofás, sillones y seccionales para remover suciedad acumulada por uso diario.",
+        "point1": "Aspirado y preparación de superficie",
+        "point2": "Aplicación controlada de producto",
+        "point3": "Extracción para retirar humedad y residuos"
       },
-      "cardiologyConsultation": {
-        "title": "Consulta de Cardiología",
-        "description": "Bloque de servicio especializado para casos que requieren monitoreo cardíaco.",
-        "point1": "Evaluación cardiovascular completa",
-        "point2": "Detección temprana de hallazgos",
-        "point3": "Recomendaciones de manejo",
-        "point4": "Control periódico según riesgo"
+      "stainRemoval": {
+        "title": "Tratamiento de manchas",
+        "description": "Atención puntual para manchas visibles, derrames y marcas comunes en muebles.",
+        "point1": "Revisión del tipo de mancha",
+        "point2": "Producto adecuado para la tela",
+        "point3": "Trabajo por zonas afectadas"
       },
-      "traumatologyConsultation": {
-        "title": "Consulta de Traumatología",
-        "description": "Atención para molestias de movilidad y recuperación funcional.",
-        "point1": "Diagnóstico funcional",
-        "point2": "Plan de rehabilitación",
-        "point3": "Seguimiento de evolución"
+      "fabricProtection": {
+        "title": "Protección y mantenimiento",
+        "description": "Cuidado preventivo para conservar mejor la apariencia de tus muebles.",
+        "point1": "Recomendaciones según material",
+        "point2": "Plan de mantenimiento periódico",
+        "point3": "Consejos de ventilación y secado"
       },
-      "dermatologyConsultation": {
-        "title": "Consulta de Dermatología",
-        "description": "Abordaje para piel y pelaje con enfoque en causa raíz.",
-        "point1": "Evaluación dermatológica",
-        "point2": "Protocolo de cuidado",
-        "point3": "Control de recurrencias"
-      },
-      "ophthalmologyConsultation": {
-        "title": "Consulta de Oftalmología",
-        "description": "Revisión ocular para detección y prevención de complicaciones visuales.",
-        "point1": "Examen ocular base",
-        "point2": "Manejo de síntomas",
-        "point3": "Control preventivo"
-      },
-      "abdominalUltrasound": {
-        "title": "Ecografía Abdominal",
-        "description": "Estudio complementario para apoyar diagnóstico clínico y decisiones terapéuticas.",
-        "point1": "Evaluación no invasiva",
-        "point2": "Apoyo diagnóstico",
-        "point3": "Reporte para seguimiento"
+      "homeVisit": {
+        "title": "Servicio a domicilio",
+        "description": "Coordinamos una visita para limpiar tus muebles sin moverlos de casa.",
+        "point1": "Agenda flexible",
+        "point2": "Equipo móvil de limpieza",
+        "point3": "Cotización clara antes del servicio"
       }
     },
     "serviceSupport": {
-      "microchipId": "Identificación con microchip",
-      "pharmacy": "Farmacia especializada",
-      "petShop": "Pet shop",
-      "homeGuidance": "Orientación para cuidados en casa",
-      "postoperativeFollowup": "Seguimiento posoperatorio",
-      "chronicDiseaseControl": "Control de condiciones crónicas"
+      "quickDry": "Secado optimizado",
+      "petFriendly": "Cuidado para hogares con mascotas",
+      "odorControl": "Control de olores",
+      "scheduledMaintenance": "Mantenimiento programado",
+      "homeAndOffice": "Hogares y oficinas",
+      "quoteByPhoto": "Cotización por foto"
     },
     "services": {
-      "landingArchitecture": {
-        "title": "Arquitectura de Landing",
-        "description": "Secciones preconstruidas para lanzar sitios de una o múltiples páginas con acabado profesional."
+      "sofaCleaning": {
+        "title": "Lavado de sofás",
+        "description": "Limpieza para sofás de uso diario, seccionales y sillones familiares."
       },
-      "designTokens": {
-        "title": "Tokens de Diseño",
-        "description": "Colores y espaciado centralizados para rebranding en minutos."
+      "chairCleaning": {
+        "title": "Lavado de sillas",
+        "description": "Servicio ideal para comedores, sillas tapizadas y mobiliario de oficina."
       },
-      "reusableComponents": {
-        "title": "Componentes Reutilizables",
-        "description": "Botones, tarjetas, headers y bloques de contenido construidos para velocidad."
+      "mattressCleaning": {
+        "title": "Lavado de colchones",
+        "description": "Limpieza enfocada en frescura, higiene y reducción de olores acumulados."
       },
-      "responsiveFirst": {
-        "title": "Responsive Primero",
-        "description": "Layouts ajustados para móvil, tablet y desktop desde el día uno."
+      "rugCleaning": {
+        "title": "Lavado de alfombras",
+        "description": "Cuidado para alfombras y tapetes que reciben tráfico constante."
       },
-      "showcasePage": {
-        "title": "Página de Showcase",
-        "description": "Una vista /components para auditar UI reutilizable antes de la entrega."
+      "odorTreatment": {
+        "title": "Tratamiento de olores",
+        "description": "Proceso de apoyo para muebles con olores por humedad, mascotas o uso frecuente."
       }
     },
     "testimonials": {
-      "projectOwner": {
-        "name": "Dueño del Proyecto",
-        "text": "El starter kit redujo tiempos de setup y nos dio una estructura limpia para futuras páginas de clientes."
+      "homeowner": {
+        "name": "Cliente residencial",
+        "text": "El sofá quedó con mejor apariencia y el proceso fue claro desde la cotización."
       },
-      "frontendDeveloper": {
-        "name": "Desarrollador Frontend",
-        "text": "Los bloques reutilizables y tokens hicieron que los cambios de branding fueran muy rápidos."
+      "apartmentOwner": {
+        "name": "Dueña de apartamento",
+        "text": "Coordinaron rápido y trabajaron con cuidado dentro del espacio."
       },
-      "freelanceTeam": {
-        "name": "Equipo Freelance",
-        "text": "Ahora clonamos un solo repositorio y entregamos landings personalizados en una fracción del tiempo."
+      "officeManager": {
+        "name": "Encargado de oficina",
+        "text": "Nos ayudaron a limpiar sillas de uso diario sin interrumpir la operación."
       }
     }
   }

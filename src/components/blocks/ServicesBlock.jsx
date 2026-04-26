@@ -9,7 +9,7 @@ function ServicesBlock() {
   const { t } = useI18n();
 
   return (
-    <section className="surface-section">
+    <section className="surface-section surface-section--compact">
       <Container>
         <SectionHeading title={t("home.servicesBlock.title")} description={t("home.servicesBlock.description")} />
         <LoopCarousel

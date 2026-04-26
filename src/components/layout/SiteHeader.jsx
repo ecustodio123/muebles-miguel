@@ -1,6 +1,6 @@
 import PhoneIcon from "@mui/icons-material/Phone";
-import { NavLink } from "react-router-dom";
-import { mainNavDropdowns, topNavLinks } from "../../data/navigation";
+import { Link } from "react-router-dom";
+import { topNavLinks } from "../../data/navigation";
 import { useI18n } from "../../lang/i18n";
 import Container from "../primitives/Container";
 import BrandLogo from "./BrandLogo";
@@ -12,20 +12,18 @@ function SiteHeader() {
   return (
     <header className="site-header">
       <Container className="header-top">
-        <NavLink to="/" aria-label={t("header.homeAria")}>
+        <Link to="/" aria-label={t("header.homeAria")}>
           <BrandLogo />
-        </NavLink>
+        </Link>
 
         <nav className="header-links" aria-label={t("header.navAria")}>
           {topNavLinks.map((link) => (
-            <NavLink
+            <a
               key={link.key}
-              to={link.to}
-              end={link.to === "/"}
-              className={({ isActive }) => (isActive ? "active" : "")}
+              href={link.href}
             >
               {t(`navigation.${link.key}`)}
-            </NavLink>
+            </a>
           ))}
           <a className="header-phone" href={`tel:${t("business.phoneHref")}`}>
             <PhoneIcon sx={{ fontSize: 15, marginBottom: "-2px" }} /> {t("business.phoneDisplay")}
@@ -33,7 +31,7 @@ function SiteHeader() {
         </nav>
       </Container>
 
-      <div className="main-nav-wrap">
+      {/* <div className="main-nav-wrap">
         <Container className="main-nav">
           {mainNavDropdowns.map((entry) => (
             <MainNavDropdown
@@ -43,7 +41,7 @@ function SiteHeader() {
             />
           ))}
         </Container>
-      </div>
+      </div> */}
     </header>
   );
 }

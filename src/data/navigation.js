@@ -1,25 +1,17 @@
 export const topNavLinks = [
-  { key: "home", to: "/" },
-  { key: "components", to: "/components" },
-  { key: "about", to: "#" },
-  { key: "contact", to: "#" },
+  { key: "home", href: "/#home" },
+  { key: "services", href: "/#services" },
+  { key: "about", href: "/#about" },
+  { key: "contact", href: "/#contact" },
 ];
 
 export const mainNavDropdowns = [
   {
-    key: "skinConditions",
+    key: "cleaning",
     optionKeys: ["option1", "option2", "option3", "option4"],
   },
   {
-    key: "procedures",
-    optionKeys: ["option1", "option2", "option3", "option4"],
-  },
-  {
-    key: "laserEnergy",
-    optionKeys: ["option1", "option2", "option3", "option4"],
-  },
-  {
-    key: "esthetics",
-    optionKeys: ["option1", "option2", "option3", "option4"],
+    key: "coverage",
+    optionKeys: ["option5", "option6", "option7", "option8"],
   },
 ];

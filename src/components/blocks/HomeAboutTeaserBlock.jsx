@@ -5,9 +5,11 @@ import Container from "../primitives/Container";
 
 function HomeAboutTeaserBlock({ ctaTo = "/components" }) {
   const { t } = useI18n();
+  const ctaClassName = "btn btn-outline";
+  const ctaLabel = t("home.aboutTeaser.cta");
 
   return (
-    <section className="surface-section">
+    <section id="about" className="surface-section">
       <Container>
         <div className="home-about-teaser">
           <div>
@@ -19,9 +21,15 @@ function HomeAboutTeaserBlock({ ctaTo = "/components" }) {
               <li>{t("home.aboutTeaser.point2")}</li>
               <li>{t("home.aboutTeaser.point3")}</li>
             </ul>
-            <Link className="btn btn-outline" to={ctaTo}>
-              {t("home.aboutTeaser.cta")}
-            </Link>
+            {ctaTo.startsWith("#") ? (
+              <a className={ctaClassName} href={ctaTo}>
+                {ctaLabel}
+              </a>
+            ) : (
+              <Link className={ctaClassName} to={ctaTo}>
+                {ctaLabel}
+              </Link>
+            )}
           </div>
 
           <div className="home-about-teaser__media">

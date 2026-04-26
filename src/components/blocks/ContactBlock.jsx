@@ -36,7 +36,7 @@ function ContactBlock() {
   };
 
   return (
-    <section className="surface-section">
+    <section id="contact" className="surface-section">
       <Container>
         <SectionHeading title={t("contactBlock.title")} description={t("contactBlock.description")} />
         <div className="contact-block">
@@ -54,7 +54,7 @@ function ContactBlock() {
                 style={{ marginTop: "0.7rem" }}
                 required
               />
-              <select className="select" name="specialty" style={{ marginTop: "0.7rem" }} defaultValue="" required>
+              <select className="select" name="service" style={{ marginTop: "0.7rem" }} defaultValue="" required>
                 <option value="" disabled>
                   {t("contactBlock.fields.interestedIn")}
                 </option>

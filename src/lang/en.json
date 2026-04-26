@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Landing Starter Kit"
+    "title": "Mubles Miguel | Professional furniture cleaning"
   },
   "language": {
     "switchLabel": "Language",
@@ -8,7 +8,7 @@
     "es": "ES"
   },
   "logo": {
-    "subtitle": "Starter Landing Kit"
+    "subtitle": "Furniture cleaning"
   },
   "header": {
     "homeAria": "Go to homepage",
@@ -16,7 +16,7 @@
   },
   "navigation": {
     "home": "Home",
-    "components": "Components",
+    "services": "Services",
     "about": "About",
     "contact": "Contact"
   },
@@ -26,27 +26,29 @@
     "tiktok": "TikTok"
   },
   "business": {
-    "phoneHref": "9737919770",
-    "phoneDisplay": "973-791-9770",
-    "whatsappHref": "https://wa.me/19737919770?text=Hi%2C%20I%20would%20like%20to%20book%20an%20appointment.",
+    "phoneHref": "937690000",
+    "phoneDisplay": "937 690 000",
+    "whatsappHref": "https://wa.me/51937690000?text=Hi%2C%20I%20would%20like%20to%20quote%20a%20furniture%20cleaning%20service.",
     "social": {
-      "facebook": "https://www.facebook.com/",
-      "instagram": "https://www.instagram.com/",
-      "tiktok": "https://www.tiktok.com/"
+      "facebook": "https://www.facebook.com/miguel.vicente.quiroz",
+      "instagram": "https://www.instagram.com/miguelvq30?igsh=ZjQycHY1bWxqYzRk",
+      "tiktok": "https://www.tiktok.com/@mvq30?_r=1&_t=ZS-95qYjzLAmFJ"
     }
   },
   "mainNav": {
     "categories": {
-      "skinConditions": "Skin Conditions",
-      "procedures": "Procedures",
-      "laserEnergy": "Laser & Energy",
-      "esthetics": "Esthetics"
+      "cleaning": "Cleaning type",
+      "coverage": "Service"
     },
     "options": {
-      "option1": "Option 1",
-      "option2": "Option 2",
-      "option3": "Option 3",
-      "option4": "Option 4"
+      "option1": "Sofas and sectionals",
+      "option2": "Dining chairs",
+      "option3": "Mattresses",
+      "option4": "Rugs",
+      "option5": "At-home service",
+      "option6": "WhatsApp quote",
+      "option7": "Homes",
+      "option8": "Offices"
     }
   },
   "carousel": {
@@ -57,73 +59,73 @@
   },
   "home": {
     "hero": {
-      "title": "Build premium landing pages faster with a reusable starter",
-      "description": "This white-label app includes routing, design tokens, responsive blocks, and reusable components ready to adapt for any business niche.",
-      "cta": "Start New Landing",
-      "imageAlt": "Starter hero"
+      "title": "Professional furniture cleaning at your home",
+      "description": "Mubles Miguel cleans sofas, chairs, mattresses, and upholstery with a careful, practical process designed to refresh your home.",
+      "cta": "Quote on WhatsApp",
+      "imageAlt": "Clean living room with a sofa after a furniture cleaning service"
     },
     "hero2": {
-      "kicker": "Reusable Alternate Hero",
-      "title": "Visual hero with prop-based variants",
-      "description": "Use variant=\"a\" or variant=\"b\" to switch the style without duplicating components while keeping your white-label base ready.",
-      "cta": "Book a consultation",
-      "imageAlt": "Smiling person in alternate hero block",
-      "badgeValue": "15+",
-      "badgeLabel": "Years of experience"
+      "kicker": "At-home service",
+      "title": "Clean upholstery without disrupting your day",
+      "description": "We schedule a visit, review the material, and apply the right process for each piece.",
+      "cta": "Book service",
+      "imageAlt": "Furniture cleaning specialist",
+      "badgeValue": "24h",
+      "badgeLabel": "Fast response"
     },
     "aboutTeaser": {
-      "kicker": "Reusable Block",
-      "title": "About teaser to present your value proposition",
-      "description": "This block summarizes core strengths and routes users to a deeper detail page.",
-      "listAria": "About teaser strengths",
-      "point1": "Compatible with white-label and multi-industry projects",
-      "point2": "Decoupled copy and image for quick adaptation",
-      "point3": "Configurable CTA to fit your funnel",
-      "cta": "View more components",
-      "imageAlt": "Team assisting a satisfied customer"
+      "kicker": "About us",
+      "title": "We care for your furniture as part of your home",
+      "description": "We are a close, responsible service focused on visible results, clear communication, and deep upholstery cleaning.",
+      "listAria": "Mubles Miguel strengths",
+      "point1": "Fabric type review before starting",
+      "point2": "Organized process to reduce moisture and residue",
+      "point3": "Direct communication for quotes and scheduling",
+      "cta": "Contact now",
+      "imageAlt": "Living room with clean furniture and a minimal atmosphere"
     },
     "servicesBlock2": {
-      "title": "Featured Services (Reusable Block)",
-      "description": "Expanded services grid with key points and support chips.",
-      "intro": "Use it when you need to explain services clearly at scale with a structure ready for larger catalogs.",
-      "supportTitle": "Complementary services",
-      "cta": "Chat on WhatsApp",
-      "allServicesCta": "View all components"
+      "title": "Furniture cleaning services",
+      "description": "Deep cleaning for everyday pieces in homes, apartments, and workspaces.",
+      "intro": "Each service adapts to the fabric type, usage level, and condition of the furniture to protect the surface and improve its appearance.",
+      "supportTitle": "Also included",
+      "cta": "Request a quote",
+      "allServicesCta": "View all services"
     },
     "ctaStrip": {
-      "kicker": "CTA Block",
-      "title": "Conversion-focused CTA strip",
-      "description": "Ideal for pushing quick booking via WhatsApp or phone with minimal friction.",
-      "primaryCta": "Book on WhatsApp",
+      "kicker": "Quick quote",
+      "title": "Send a photo and get guidance for your service",
+      "description": "Tell us what furniture you need cleaned, your area, and your preferred schedule. We will respond with a clear recommendation.",
+      "primaryCta": "Message on WhatsApp",
       "secondaryCta": "Call now"
     },
     "socialLinksBlock": {
-      "title": "Social Links (Reusable Component)",
-      "description": "Social icon set ready to use in footer, contact, or promotional sections."
+      "title": "Social media",
+      "description": "Follow us for results and promotions."
     },
     "servicesBlock": {
-      "title": "Reusable Service Cards Carousel",
-      "description": "Click-and-drag loop carousel with mobile autoplay that you can reuse in landing pages."
+      "title": "Cleaning for every space",
+      "description": "Frequent services that help keep your furniture fresh, clean, and ready for daily use."
     },
     "testimonialsBlock": {
-      "title": "Testimonials Section",
-      "description": "Simple reusable card grid for social proof."
+      "title": "Satisfied clients",
+      "description": "Comments from people who trusted Mubles Miguel to refresh their spaces."
     }
   },
   "contactBlock": {
-    "title": "Contact Block",
-    "description": "Reusable contact section with form + map.",
+    "title": "Contact",
+    "description": "Complete the form or message us on WhatsApp to quote your furniture cleaning service.",
     "fields": {
-      "fullName": "Full Name*",
+      "fullName": "Full name*",
       "phone": "Phone*",
       "email": "Email*",
-      "interestedIn": "Interested in",
+      "interestedIn": "Service of interest",
       "message": "Message"
     },
     "options": {
-      "option1": "Option 1",
-      "option2": "Option 2",
-      "option3": "Option 3"
+      "option1": "Sofa cleaning",
+      "option2": "Mattress cleaning",
+      "option3": "Chair or rug cleaning"
     },
     "sending": "Sending...",
     "feedback": {
@@ -131,8 +133,8 @@
       "error": "We could not send your message. Please try again in a moment.",
       "configError": "EmailJS environment variables are missing."
     },
-    "submit": "Submit",
-    "mapTitle": "Demo map"
+    "submit": "Send request",
+    "mapTitle": "Service area"
   },
   "pages": {
     "components": {
@@ -144,108 +146,93 @@
     },
     "notFound": {
       "title": "404 - Page Not Found",
-      "description": "This route is not available in the starter kit.",
+      "description": "This route is not available.",
       "backHome": "Back Home"
     }
   },
   "footer": {
-    "title": "Landing Starter Kit",
-    "description": "Reusable React + Tailwind + Router foundation for fast client delivery.",
+    "title": "Mubles Miguel",
+    "description": "Professional cleaning for furniture, upholstery, and textile surfaces with clear communication and at-home service.",
     "highlights": {
-      "cloneBuild": "Ready for clone-and-build workflow",
-      "tokenBased": "Token-based theming",
-      "responsive": "Responsive defaults"
+      "cloneBuild": "At-home service",
+      "tokenBased": "WhatsApp quotes",
+      "responsive": "Homes and offices"
     },
-    "rights": "© 2026 Landing Starter Kit. Built for reusable freelance workflows."
+    "rights": "© 2026 Mubles Miguel. All rights reserved."
   },
   "catalog": {
     "serviceShowcase": {
-      "generalConsultation": {
-        "title": "General Consultation",
-        "description": "Comprehensive evaluation to identify current status and top priorities.",
-        "point1": "Initial clinical check",
-        "point2": "Treatment guidance",
-        "point3": "Recommended follow-up plan"
+      "deepUpholsteryWash": {
+        "title": "Deep upholstery wash",
+        "description": "Cleaning for sofas, armchairs, and sectionals to remove buildup from daily use.",
+        "point1": "Vacuuming and surface preparation",
+        "point2": "Controlled product application",
+        "point3": "Extraction to remove moisture and residue"
       },
-      "cardiologyConsultation": {
-        "title": "Cardiology Consultation",
-        "description": "Specialized service block for cases requiring cardiac monitoring.",
-        "point1": "Complete cardiovascular evaluation",
-        "point2": "Early finding detection",
-        "point3": "Management recommendations",
-        "point4": "Periodic control by risk level"
+      "stainRemoval": {
+        "title": "Stain treatment",
+        "description": "Focused care for visible stains, spills, and common marks on furniture.",
+        "point1": "Stain type review",
+        "point2": "Fabric-appropriate product",
+        "point3": "Targeted work on affected areas"
       },
-      "traumatologyConsultation": {
-        "title": "Traumatology Consultation",
-        "description": "Care for mobility issues and functional recovery.",
-        "point1": "Functional diagnosis",
-        "point2": "Rehabilitation plan",
-        "point3": "Progress follow-up"
+      "fabricProtection": {
+        "title": "Protection and maintenance",
+        "description": "Preventive care to better preserve your furniture appearance.",
+        "point1": "Recommendations by material",
+        "point2": "Recurring maintenance plan",
+        "point3": "Ventilation and drying guidance"
       },
-      "dermatologyConsultation": {
-        "title": "Dermatology Consultation",
-        "description": "Skin and coat care focused on root causes.",
-        "point1": "Dermatology assessment",
-        "point2": "Care protocol",
-        "point3": "Recurrence control"
-      },
-      "ophthalmologyConsultation": {
-        "title": "Ophthalmology Consultation",
-        "description": "Eye checkups for detection and prevention of visual complications.",
-        "point1": "Baseline eye exam",
-        "point2": "Symptom management",
-        "point3": "Preventive control"
-      },
-      "abdominalUltrasound": {
-        "title": "Abdominal Ultrasound",
-        "description": "Complementary study to support diagnosis and treatment decisions.",
-        "point1": "Non-invasive evaluation",
-        "point2": "Diagnostic support",
-        "point3": "Follow-up reporting"
+      "homeVisit": {
+        "title": "At-home service",
+        "description": "We coordinate a visit to clean your furniture without moving it out of your home.",
+        "point1": "Flexible scheduling",
+        "point2": "Mobile cleaning equipment",
+        "point3": "Clear quote before the service"
       }
     },
     "serviceSupport": {
-      "microchipId": "Microchip identification",
-      "pharmacy": "Specialized pharmacy",
-      "petShop": "Pet shop",
-      "homeGuidance": "Home care guidance",
-      "postoperativeFollowup": "Postoperative follow-up",
-      "chronicDiseaseControl": "Chronic condition control"
+      "quickDry": "Optimized drying",
+      "petFriendly": "Care for homes with pets",
+      "odorControl": "Odor control",
+      "scheduledMaintenance": "Scheduled maintenance",
+      "homeAndOffice": "Homes and offices",
+      "quoteByPhoto": "Photo-based quote"
     },
     "services": {
-      "landingArchitecture": {
-        "title": "Landing Architecture",
-        "description": "Prebuilt sections to launch polished one-page and multipage websites."
+      "sofaCleaning": {
+        "title": "Sofa cleaning",
+        "description": "Cleaning for daily-use sofas, sectionals, and family armchairs."
       },
-      "designTokens": {
-        "title": "Design Tokens",
-        "description": "Centralized colors and spacing to rebrand projects in minutes."
+      "chairCleaning": {
+        "title": "Chair cleaning",
+        "description": "Ideal for dining chairs, upholstered chairs, and office furniture."
       },
-      "reusableComponents": {
-        "title": "Reusable Components",
-        "description": "Buttons, cards, headers, and content blocks built for speed."
+      "mattressCleaning": {
+        "title": "Mattress cleaning",
+        "description": "Cleaning focused on freshness, hygiene, and reducing accumulated odors."
       },
-      "responsiveFirst": {
-        "title": "Responsive First",
-        "description": "Layouts tuned for mobile, tablet, and desktop from day one."
+      "rugCleaning": {
+        "title": "Rug cleaning",
+        "description": "Care for rugs and carpets that receive constant foot traffic."
       },
-      "showcasePage": {
-        "title": "Showcase Page",
-        "description": "A /components view to audit reusable UI before project delivery."
+      "odorTreatment": {
+        "title": "Odor treatment",
+        "description": "Support process for furniture with odors from moisture, pets, or frequent use."
       }
     },
     "testimonials": {
-      "projectOwner": {
-        "name": "Project Owner",
-        "text": "The starter kit reduced setup time and gave us a clean structure for future client pages."
+      "homeowner": {
+        "name": "Residential client",
+        "text": "The sofa looked much better and the process was clear from the quote."
       },
-      "frontendDeveloper": {
-        "name": "Frontend Developer",
-        "text": "Reusable blocks and tokens made branding changes extremely fast."
+      "apartmentOwner": {
+        "name": "Apartment owner",
+        "text": "They coordinated quickly and worked carefully inside the space."
       },
-      "freelanceTeam": {
-        "name": "Freelance Team",
-        "text": "We now clone one repo and ship customized landings in a fraction of the time."
+      "officeManager": {
+        "name": "Office manager",
+        "text": "They helped us clean daily-use chairs without interrupting operations."
       }
     }
   }

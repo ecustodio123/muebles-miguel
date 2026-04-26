@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { topNavLinks } from "../../data/navigation";
 import { useI18n } from "../../lang/i18n";
 import Container from "../primitives/Container";
 import SocialLinks from "../primitives/SocialLinks";
@@ -15,18 +16,15 @@ function SiteFooter() {
           <SocialLinks tone="footer" />
         </div>
         <ul className="footer-links">
-          <li>
-            <NavLink to="/">{t("navigation.home")}</NavLink>
-          </li>
-          <li>
-            <NavLink to="/components">{t("navigation.components")}</NavLink>
-          </li>
-          <li>
-            <a href="#">{t("navigation.about")}</a>
-          </li>
-          <li>
-            <a href="#">{t("navigation.contact")}</a>
-          </li>
+          {topNavLinks.map((link) => (
+            <li key={link.key}>
+              {link.href === "/#home" ? (
+                <NavLink to="/">{t(`navigation.${link.key}`)}</NavLink>
+              ) : (
+                <a href={link.href}>{t(`navigation.${link.key}`)}</a>
+              )}
+            </li>
+          ))}
         </ul>
         <ul className="footer-links">
           <li>{t("footer.highlights.cloneBuild")}</li>
