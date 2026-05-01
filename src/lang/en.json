@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Mubles Miguel | Professional furniture cleaning"
+    "title": "Lavanderia Suvanet | Carpet and wall-to-wall carpet cleaning"
   },
   "language": {
     "switchLabel": "Language",
@@ -8,7 +8,8 @@
     "es": "ES"
   },
   "logo": {
-    "subtitle": "Furniture cleaning"
+    "name": "Lavanderia Suvanet",
+    "subtitle": "Carpet laundry service"
   },
   "header": {
     "homeAria": "Go to homepage",
@@ -28,7 +29,7 @@
   "business": {
     "phoneHref": "937690000",
     "phoneDisplay": "937 690 000",
-    "whatsappHref": "https://wa.me/51937690000?text=Hi%2C%20I%20would%20like%20to%20quote%20a%20furniture%20cleaning%20service.",
+    "whatsappHref": "https://wa.me/51937690000?text=Hi%2C%20I%20would%20like%20to%20quote%20a%20cleaning%20service%20with%20Lavanderia%20Suvanet.",
     "social": {
       "facebook": "https://www.facebook.com/miguel.vicente.quiroz",
       "instagram": "https://www.instagram.com/miguelvq30?igsh=ZjQycHY1bWxqYzRk",
@@ -37,18 +38,18 @@
   },
   "mainNav": {
     "categories": {
-      "cleaning": "Cleaning type",
-      "coverage": "Service"
+      "cleaning": "Services",
+      "coverage": "Care"
     },
     "options": {
-      "option1": "Sofas and sectionals",
-      "option2": "Dining chairs",
-      "option3": "Mattresses",
-      "option4": "Rugs",
-      "option5": "At-home service",
-      "option6": "WhatsApp quote",
-      "option7": "Homes",
-      "option8": "Offices"
+      "option1": "Area rugs",
+      "option2": "Wall-to-wall carpets",
+      "option3": "Furniture",
+      "option4": "Curtains",
+      "option5": "Rooms and offices",
+      "option6": "Pickup and delivery",
+      "option7": "Disinfection",
+      "option8": "Perfumed finish"
     }
   },
   "carousel": {
@@ -59,62 +60,62 @@
   },
   "home": {
     "hero": {
-      "title": "Professional furniture cleaning at your home",
-      "description": "Mubles Miguel cleans sofas, chairs, mattresses, and upholstery with a careful, practical process designed to refresh your home.",
+      "title": "Professional carpet and wall-to-wall carpet cleaning",
+      "description": "Lavanderia Suvanet cleans, disinfects, and perfumes area rugs, wall-to-wall carpets, furniture, and curtains with industrial products and 20 years of experience.",
       "cta": "Quote on WhatsApp",
-      "imageAlt": "Clean living room with a sofa after a furniture cleaning service"
+      "imageAlt": "Clean carpet in a bright room after a professional washing service"
     },
     "hero2": {
-      "kicker": "At-home service",
-      "title": "Clean upholstery without disrupting your day",
-      "description": "We schedule a visit, review the material, and apply the right process for each piece.",
+      "kicker": "Specialized service",
+      "title": "Clean, disinfected carpets ready for use",
+      "description": "We pick up your carpets, wash them at our workshop, and deliver them in approximately 3 to 5 days.",
       "cta": "Book service",
-      "imageAlt": "Furniture cleaning specialist",
-      "badgeValue": "24h",
-      "badgeLabel": "Fast response"
+      "imageAlt": "Specialist cleaning a carpet",
+      "badgeValue": "20+",
+      "badgeLabel": "Years of experience"
     },
     "aboutTeaser": {
       "kicker": "About us",
-      "title": "We care for your furniture as part of your home",
-      "description": "We are a close, responsible service focused on visible results, clear communication, and deep upholstery cleaning.",
-      "listAria": "Mubles Miguel strengths",
-      "point1": "Fabric type review before starting",
-      "point2": "Organized process to reduce moisture and residue",
-      "point3": "Direct communication for quotes and scheduling",
+      "title": "20 years caring for homes and offices",
+      "description": "At Suvanet we work with organized processes, industrial products, and direct service so every carpet, wall-to-wall carpet, or upholstered piece receives the right care.",
+      "listAria": "Lavanderia Suvanet strengths",
+      "point1": "Specialists in area rugs and wall-to-wall carpets",
+      "point2": "Disinfection and perfumed finish included",
+      "point3": "Free delivery after prior conversation and coordination",
       "cta": "Contact now",
-      "imageAlt": "Living room with clean furniture and a minimal atmosphere"
+      "imageAlt": "Office with a clean carpet and organized environment"
     },
     "servicesBlock2": {
-      "title": "Furniture cleaning services",
-      "description": "Deep cleaning for everyday pieces in homes, apartments, and workspaces.",
-      "intro": "Each service adapts to the fabric type, usage level, and condition of the furniture to protect the surface and improve its appearance.",
-      "supportTitle": "Also included",
+      "title": "Main services",
+      "description": "Cleaning for area rugs, wall-to-wall carpets, furniture, and curtains in rooms, offices, and homes.",
+      "intro": "We review the surface type, usage level, and material condition to apply a washing, disinfection, and perfuming process with industrial products.",
+      "supportTitle": "Service value",
       "cta": "Request a quote",
       "allServicesCta": "View all services"
     },
     "ctaStrip": {
-      "kicker": "Quick quote",
-      "title": "Send a photo and get guidance for your service",
-      "description": "Tell us what furniture you need cleaned, your area, and your preferred schedule. We will respond with a clear recommendation.",
+      "kicker": "Pickup and delivery",
+      "title": "We coordinate the service around your carpet or space",
+      "description": "For area rugs, we pick up the piece, wash it, and coordinate delivery in approximately 3 to 5 days. Delivery can be free after prior conversation.",
       "primaryCta": "Message on WhatsApp",
       "secondaryCta": "Call now"
     },
     "socialLinksBlock": {
       "title": "Social media",
-      "description": "Follow us for results and promotions."
+      "description": "Follow us for work examples and updates."
     },
     "servicesBlock": {
-      "title": "Cleaning for every space",
-      "description": "Frequent services that help keep your furniture fresh, clean, and ready for daily use."
+      "title": "Cleaning for every need",
+      "description": "Frequent solutions to keep area rugs, wall-to-wall carpets, furniture, and curtains clean, disinfected, and fresh."
     },
     "testimonialsBlock": {
-      "title": "Satisfied clients",
-      "description": "Comments from people who trusted Mubles Miguel to refresh their spaces."
+      "title": "Clients who back our work",
+      "description": "Our experience and client trust support the quality of our service."
     }
   },
   "contactBlock": {
     "title": "Contact",
-    "description": "Complete the form or message us on WhatsApp to quote your furniture cleaning service.",
+    "description": "Tell us what you need cleaned and we will coordinate the best way to help.",
     "fields": {
       "fullName": "Full name*",
       "phone": "Phone*",
@@ -123,9 +124,9 @@
       "message": "Message"
     },
     "options": {
-      "option1": "Sofa cleaning",
-      "option2": "Mattress cleaning",
-      "option3": "Chair or rug cleaning"
+      "option1": "Area rug cleaning",
+      "option2": "Wall-to-wall carpet cleaning",
+      "option3": "Furniture, curtains, or offices"
     },
     "sending": "Sending...",
     "feedback": {
@@ -151,88 +152,88 @@
     }
   },
   "footer": {
-    "title": "Mubles Miguel",
-    "description": "Professional cleaning for furniture, upholstery, and textile surfaces with clear communication and at-home service.",
+    "title": "Lavanderia Suvanet",
+    "description": "Cleaning for area rugs, wall-to-wall carpets, furniture, and curtains with disinfection, perfumed finish, and industrial products.",
     "highlights": {
-      "cloneBuild": "At-home service",
-      "tokenBased": "WhatsApp quotes",
-      "responsive": "Homes and offices"
+      "cloneBuild": "20 years of experience",
+      "tokenBased": "Coordinated pickup and delivery",
+      "responsive": "Homes, rooms, and offices"
     },
-    "rights": "© 2026 Mubles Miguel. All rights reserved."
+    "rights": "© 2026 Lavanderia Suvanet. All rights reserved."
   },
   "catalog": {
     "serviceShowcase": {
-      "deepUpholsteryWash": {
-        "title": "Deep upholstery wash",
-        "description": "Cleaning for sofas, armchairs, and sectionals to remove buildup from daily use.",
-        "point1": "Vacuuming and surface preparation",
-        "point2": "Controlled product application",
-        "point3": "Extraction to remove moisture and residue"
+      "carpetWorkshopWash": {
+        "title": "Area rug cleaning",
+        "description": "Pickup, specialized washing, and delivery of rugs in approximately 3 to 5 days.",
+        "point1": "Off-site washing for a better finish",
+        "point2": "Disinfection and perfumed finish",
+        "point3": "Free delivery after prior coordination"
       },
-      "stainRemoval": {
-        "title": "Stain treatment",
-        "description": "Focused care for visible stains, spills, and common marks on furniture.",
-        "point1": "Stain type review",
-        "point2": "Fabric-appropriate product",
-        "point3": "Targeted work on affected areas"
+      "wallToWallCarpet": {
+        "title": "Wall-to-wall carpet cleaning",
+        "description": "Care for carpets in rooms, hallways, and offices with high foot traffic.",
+        "point1": "Area assessment before service",
+        "point2": "Industrial product use",
+        "point3": "Process designed for workspaces"
       },
-      "fabricProtection": {
-        "title": "Protection and maintenance",
-        "description": "Preventive care to better preserve your furniture appearance.",
-        "point1": "Recommendations by material",
-        "point2": "Recurring maintenance plan",
-        "point3": "Ventilation and drying guidance"
+      "upholsteryCleaning": {
+        "title": "Furniture cleaning",
+        "description": "Cleaning for upholstered furniture to remove dirt, odors, and accumulated use.",
+        "point1": "Fabric type review",
+        "point2": "Controlled washing and extraction",
+        "point3": "Perfumed finish"
       },
-      "homeVisit": {
-        "title": "At-home service",
-        "description": "We coordinate a visit to clean your furniture without moving it out of your home.",
-        "point1": "Flexible scheduling",
-        "point2": "Mobile cleaning equipment",
-        "point3": "Clear quote before the service"
+      "curtainCleaning": {
+        "title": "Curtain cleaning",
+        "description": "Curtain care to refresh home or office environments.",
+        "point1": "Careful fabric handling",
+        "point2": "Cleaning and disinfection",
+        "point3": "Coordination by volume"
       }
     },
     "serviceSupport": {
-      "quickDry": "Optimized drying",
-      "petFriendly": "Care for homes with pets",
-      "odorControl": "Odor control",
-      "scheduledMaintenance": "Scheduled maintenance",
-      "homeAndOffice": "Homes and offices",
-      "quoteByPhoto": "Photo-based quote"
+      "freeDelivery": "Free delivery after prior conversation",
+      "threeToFiveDays": "Carpet delivery in 3 to 5 days",
+      "industrialProducts": "Industrial products",
+      "disinfection": "Disinfection included",
+      "perfumedFinish": "Perfumed finish",
+      "twentyYears": "20 years of experience"
     },
     "services": {
-      "sofaCleaning": {
-        "title": "Sofa cleaning",
-        "description": "Cleaning for daily-use sofas, sectionals, and family armchairs."
+      "carpetCleaning": {
+        "title": "Area rug cleaning",
+        "description": "Main service with pickup, washing, disinfection, perfumed finish, and coordinated delivery."
       },
-      "chairCleaning": {
-        "title": "Chair cleaning",
-        "description": "Ideal for dining chairs, upholstered chairs, and office furniture."
+      "wallToWallCarpet": {
+        "title": "Wall-to-wall carpet cleaning",
+        "description": "Cleaning for installed carpets in rooms, offices, and high-traffic areas."
       },
-      "mattressCleaning": {
-        "title": "Mattress cleaning",
-        "description": "Cleaning focused on freshness, hygiene, and reducing accumulated odors."
+      "upholsteryCleaning": {
+        "title": "Furniture cleaning",
+        "description": "Treatment for upholstered furniture with products suited for frequent use."
       },
-      "rugCleaning": {
-        "title": "Rug cleaning",
-        "description": "Care for rugs and carpets that receive constant foot traffic."
+      "curtainCleaning": {
+        "title": "Curtain cleaning",
+        "description": "Cleaning for home and office curtains with attention to fabric type."
       },
-      "odorTreatment": {
-        "title": "Odor treatment",
-        "description": "Support process for furniture with odors from moisture, pets, or frequent use."
+      "officeCleaning": {
+        "title": "Rooms and offices",
+        "description": "Service for complete spaces that require professional textile cleaning."
       }
     },
     "testimonials": {
       "homeowner": {
-        "name": "Residential client",
-        "text": "The sofa looked much better and the process was clear from the quote."
+        "name": "Home client",
+        "text": "The rug came back clean, disinfected, and with a fresh scent within the agreed timeframe."
       },
       "apartmentOwner": {
-        "name": "Apartment owner",
-        "text": "They coordinated quickly and worked carefully inside the space."
+        "name": "Frequent client",
+        "text": "Their experience shows in the communication and in the care they give to each material."
       },
       "officeManager": {
-        "name": "Office manager",
-        "text": "They helped us clean daily-use chairs without interrupting operations."
+        "name": "Office client",
+        "text": "They helped us with high-traffic carpets and coordinated without complicating our schedule."
       }
     }
   }

@@ -1,34 +1,34 @@
 export const heroImage =
-  "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80";
+  "https://images.unsplash.com/photo-1600166898405-da9535204843?auto=format&fit=crop&w=1200&q=80";
 
 export const aboutTeaserImage =
-  "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1200&q=80";
+  "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80";
 
 export const services = [
   {
-    id: "sofaCleaning",
-    image:
-      "https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=1200&q=80",
-  },
-  {
-    id: "chairCleaning",
-    image:
-      "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1200&q=80",
-  },
-  {
-    id: "mattressCleaning",
-    image:
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80",
-  },
-  {
-    id: "rugCleaning",
+    id: "carpetCleaning",
     image:
       "https://images.unsplash.com/photo-1600166898405-da9535204843?auto=format&fit=crop&w=1200&q=80",
   },
   {
-    id: "odorTreatment",
+    id: "wallToWallCarpet",
     image:
-      "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
+  },
+  {
+    id: "upholsteryCleaning",
+    image:
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80",
+  },
+  {
+    id: "curtainCleaning",
+    image:
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80",
+  },
+  {
+    id: "officeCleaning",
+    image:
+      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80",
   },
 ];
 
@@ -36,36 +36,36 @@ export const testimonials = [{ id: "homeowner" }, { id: "apartmentOwner" }, { id
 
 export const serviceShowcase = [
   {
-    id: "deepUpholsteryWash",
+    id: "carpetWorkshopWash",
+    image:
+      "https://images.unsplash.com/photo-1600166898405-da9535204843?auto=format&fit=crop&w=1200&q=80",
+    pointKeys: ["point1", "point2", "point3"],
+  },
+  {
+    id: "wallToWallCarpet",
+    image:
+      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
+    pointKeys: ["point1", "point2", "point3"],
+  },
+  {
+    id: "upholsteryCleaning",
     image:
       "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80",
     pointKeys: ["point1", "point2", "point3"],
   },
   {
-    id: "stainRemoval",
+    id: "curtainCleaning",
     image:
-      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
-    pointKeys: ["point1", "point2", "point3"],
-  },
-  {
-    id: "fabricProtection",
-    image:
-      "https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&fit=crop&w=1200&q=80",
-    pointKeys: ["point1", "point2", "point3"],
-  },
-  {
-    id: "homeVisit",
-    image:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80",
     pointKeys: ["point1", "point2", "point3"],
   },
 ];
 
 export const supportServiceKeys = [
-  "quickDry",
-  "petFriendly",
-  "odorControl",
-  "scheduledMaintenance",
-  "homeAndOffice",
-  "quoteByPhoto",
+  "freeDelivery",
+  "threeToFiveDays",
+  "industrialProducts",
+  "disinfection",
+  "perfumedFinish",
+  "twentyYears",
 ];

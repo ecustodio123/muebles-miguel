@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Mubles Miguel | Lavado profesional de muebles"
+    "title": "Lavanderia Suvanet | Lavado de alfombras y tapizones"
   },
   "language": {
     "switchLabel": "Idioma",
@@ -8,7 +8,8 @@
     "es": "ES"
   },
   "logo": {
-    "subtitle": "Lavado de muebles"
+    "name": "Lavanderia Suvanet",
+    "subtitle": "Lavanderia de alfombras"
   },
   "header": {
     "homeAria": "Ir al inicio",
@@ -28,7 +29,7 @@
   "business": {
     "phoneHref": "937690000",
     "phoneDisplay": "937 690 000",
-    "whatsappHref": "https://wa.me/51937690000?text=Hola%2C%20quiero%20cotizar%20un%20lavado%20de%20muebles.",
+    "whatsappHref": "https://wa.me/51937690000?text=Hola%2C%20quiero%20cotizar%20un%20lavado%20con%20Lavanderia%20Suvanet.",
     "social": {
       "facebook": "https://www.facebook.com/miguel.vicente.quiroz",
       "instagram": "https://www.instagram.com/miguelvq30?igsh=ZjQycHY1bWxqYzRk",
@@ -37,18 +38,18 @@
   },
   "mainNav": {
     "categories": {
-      "cleaning": "Tipo de limpieza",
+      "cleaning": "Servicios",
       "coverage": "Atención"
     },
     "options": {
-      "option1": "Sofás y seccionales",
-      "option2": "Sillas y comedor",
-      "option3": "Colchones",
-      "option4": "Alfombras",
-      "option5": "Servicio a domicilio",
-      "option6": "Cotización por WhatsApp",
-      "option7": "Hogares",
-      "option8": "Oficinas"
+      "option1": "Alfombras",
+      "option2": "Tapizones",
+      "option3": "Muebles",
+      "option4": "Cortinas",
+      "option5": "Cuartos y oficinas",
+      "option6": "Recojo y entrega",
+      "option7": "Desinfección",
+      "option8": "Perfumado"
     }
   },
   "carousel": {
@@ -59,62 +60,62 @@
   },
   "home": {
     "hero": {
-      "title": "Lavado profesional de muebles a domicilio",
-      "description": "Mubles Miguel limpia sofás, sillas, colchones y tapicería con un proceso cuidadoso, práctico y pensado para recuperar la frescura de tu hogar.",
+      "title": "Lavado profesional de alfombras y tapizones",
+      "description": "Lavanderia Suvanet limpia, desinfecta y perfuma alfombras, tapizones, muebles y cortinas con productos industriales y 20 años de experiencia en el rubro.",
       "cta": "Cotizar por WhatsApp",
-      "imageAlt": "Sala limpia con sofá después de un servicio de lavado de muebles"
+      "imageAlt": "Alfombra limpia en una sala luminosa después de un lavado profesional"
     },
     "hero2": {
-      "kicker": "Servicio a domicilio",
-      "title": "Tapicería limpia sin complicarte el día",
-      "description": "Agendamos una visita, revisamos el material y aplicamos el proceso adecuado para cada mueble.",
+      "kicker": "Servicio especializado",
+      "title": "Alfombras limpias, desinfectadas y listas para usar",
+      "description": "Recogemos tus alfombras, realizamos el lavado en taller y las entregamos en aproximadamente 3 a 5 días.",
       "cta": "Agendar servicio",
-      "imageAlt": "Especialista en lavado de muebles",
-      "badgeValue": "24h",
-      "badgeLabel": "Respuesta rápida"
+      "imageAlt": "Especialista realizando lavado de alfombras",
+      "badgeValue": "20+",
+      "badgeLabel": "Años de experiencia"
     },
     "aboutTeaser": {
       "kicker": "Nosotros",
-      "title": "Cuidamos tus muebles como parte de tu casa",
-      "description": "Somos un servicio cercano y responsable enfocado en resultados visibles, trato claro y limpieza profunda de tapicería.",
-      "listAria": "Fortalezas de Mubles Miguel",
-      "point1": "Evaluación del tipo de tela antes de iniciar",
-      "point2": "Proceso ordenado para reducir humedad y residuos",
-      "point3": "Comunicación directa para cotizar y coordinar horarios",
+      "title": "20 años cuidando espacios de hogares y oficinas",
+      "description": "En Suvanet trabajamos con procesos ordenados, productos industriales y atención directa para que cada alfombra, tapizón o mueble reciba el cuidado adecuado.",
+      "listAria": "Fortalezas de Lavanderia Suvanet",
+      "point1": "Especialistas en lavado de alfombras y tapizones",
+      "point2": "Desinfección y perfumado como parte del servicio",
+      "point3": "Delivery gratuito previa conversación y coordinación",
       "cta": "Contactar ahora",
-      "imageAlt": "Sala con muebles limpios y ambiente minimalista"
+      "imageAlt": "Oficina con alfombra limpia y ambiente ordenado"
     },
     "servicesBlock2": {
-      "title": "Servicios de lavado de muebles",
-      "description": "Limpieza profunda para piezas de uso diario en casas, apartamentos y espacios de trabajo.",
-      "intro": "Cada servicio se adapta al tipo de tela, nivel de uso y condición del mueble para cuidar la superficie y mejorar su apariencia.",
-      "supportTitle": "También incluimos",
+      "title": "Servicios principales",
+      "description": "Lavado para alfombras, tapizones, muebles y cortinas en cuartos, oficinas y hogares.",
+      "intro": "Evaluamos el tipo de superficie, nivel de uso y condición del material para aplicar un proceso de lavado, desinfección y perfumado con productos industriales.",
+      "supportTitle": "Valor del servicio",
       "cta": "Solicitar cotización",
       "allServicesCta": "Ver todos los servicios"
     },
     "ctaStrip": {
-      "kicker": "Cotización rápida",
-      "title": "Envía una foto y recibe orientación para tu servicio",
-      "description": "Cuéntanos qué mueble necesitas limpiar, tu zona y el horario ideal. Te respondemos con una recomendación clara.",
+      "kicker": "Recojo y entrega",
+      "title": "Coordinamos el servicio según tu alfombra o ambiente",
+      "description": "Para alfombras, recogemos la pieza, realizamos el lavado y coordinamos la entrega en 3 a 5 días aproximadamente. El delivery puede ser gratuito previa conversación.",
       "primaryCta": "Escribir por WhatsApp",
       "secondaryCta": "Llamar ahora"
     },
     "socialLinksBlock": {
       "title": "Redes sociales",
-      "description": "Síguenos para ver resultados y promociones."
+      "description": "Síguenos para ver trabajos y novedades."
     },
     "servicesBlock": {
-      "title": "Limpieza para cada espacio",
-      "description": "Servicios frecuentes que ayudan a mantener tus muebles frescos, limpios y listos para el uso diario."
+      "title": "Limpieza para cada necesidad",
+      "description": "Soluciones frecuentes para mantener alfombras, tapizones, muebles y cortinas limpios, desinfectados y con buen aroma."
     },
     "testimonialsBlock": {
-      "title": "Clientes satisfechos",
-      "description": "Opiniones de personas que confiaron en Mubles Miguel para renovar sus espacios."
+      "title": "Clientes que nos avalan",
+      "description": "La experiencia y la confianza de nuestros clientes respaldan nuestro trabajo."
     }
   },
   "contactBlock": {
     "title": "Contacto",
-    "description": "Completa el formulario o escríbenos por WhatsApp para cotizar tu lavado de muebles.",
+    "description": "Cuéntanos qué necesitas lavar y coordinamos la mejor forma de atenderte.",
     "fields": {
       "fullName": "Nombre completo*",
       "phone": "Teléfono*",
@@ -123,9 +124,9 @@
       "message": "Mensaje"
     },
     "options": {
-      "option1": "Lavado de sofá",
-      "option2": "Lavado de colchón",
-      "option3": "Lavado de sillas o alfombra"
+      "option1": "Lavado de alfombras",
+      "option2": "Lavado de tapizones",
+      "option3": "Muebles, cortinas u oficinas"
     },
     "sending": "Enviando...",
     "feedback": {
@@ -151,88 +152,88 @@
     }
   },
   "footer": {
-    "title": "Mubles Miguel",
-    "description": "Lavado profesional de muebles, tapicería y superficies textiles con atención clara y servicio a domicilio.",
+    "title": "Lavanderia Suvanet",
+    "description": "Lavado de alfombras, tapizones, muebles y cortinas con desinfección, perfumado y productos industriales.",
     "highlights": {
-      "cloneBuild": "Servicio a domicilio",
-      "tokenBased": "Cotización por WhatsApp",
-      "responsive": "Atención para hogares y oficinas"
+      "cloneBuild": "20 años de experiencia",
+      "tokenBased": "Recojo y entrega coordinada",
+      "responsive": "Hogares, cuartos y oficinas"
     },
-    "rights": "© 2026 Mubles Miguel. Todos los derechos reservados."
+    "rights": "© 2026 Lavanderia Suvanet. Todos los derechos reservados."
   },
   "catalog": {
     "serviceShowcase": {
-      "deepUpholsteryWash": {
-        "title": "Lavado profundo de tapicería",
-        "description": "Limpieza de sofás, sillones y seccionales para remover suciedad acumulada por uso diario.",
-        "point1": "Aspirado y preparación de superficie",
-        "point2": "Aplicación controlada de producto",
-        "point3": "Extracción para retirar humedad y residuos"
+      "carpetWorkshopWash": {
+        "title": "Lavado de alfombras",
+        "description": "Recojo, lavado especializado y entrega de alfombras en aproximadamente 3 a 5 días.",
+        "point1": "Lavado fuera del ambiente para mejor acabado",
+        "point2": "Desinfección y perfumado",
+        "point3": "Delivery gratuito previa coordinación"
       },
-      "stainRemoval": {
-        "title": "Tratamiento de manchas",
-        "description": "Atención puntual para manchas visibles, derrames y marcas comunes en muebles.",
-        "point1": "Revisión del tipo de mancha",
-        "point2": "Producto adecuado para la tela",
-        "point3": "Trabajo por zonas afectadas"
+      "wallToWallCarpet": {
+        "title": "Lavado de tapizones",
+        "description": "Atención para tapizones de cuartos, pasillos y oficinas con alto tránsito.",
+        "point1": "Evaluación del área a tratar",
+        "point2": "Uso de productos industriales",
+        "point3": "Proceso pensado para espacios de trabajo"
       },
-      "fabricProtection": {
-        "title": "Protección y mantenimiento",
-        "description": "Cuidado preventivo para conservar mejor la apariencia de tus muebles.",
-        "point1": "Recomendaciones según material",
-        "point2": "Plan de mantenimiento periódico",
-        "point3": "Consejos de ventilación y secado"
+      "upholsteryCleaning": {
+        "title": "Lavado de muebles",
+        "description": "Limpieza de muebles tapizados para retirar suciedad, olores y uso acumulado.",
+        "point1": "Revisión del tipo de tela",
+        "point2": "Lavado y extracción controlada",
+        "point3": "Acabado perfumado"
       },
-      "homeVisit": {
-        "title": "Servicio a domicilio",
-        "description": "Coordinamos una visita para limpiar tus muebles sin moverlos de casa.",
-        "point1": "Agenda flexible",
-        "point2": "Equipo móvil de limpieza",
-        "point3": "Cotización clara antes del servicio"
+      "curtainCleaning": {
+        "title": "Lavado de cortinas",
+        "description": "Cuidado de cortinas para renovar ambientes de casa u oficina.",
+        "point1": "Manipulación cuidadosa del tejido",
+        "point2": "Limpieza y desinfección",
+        "point3": "Coordinación según volumen"
       }
     },
     "serviceSupport": {
-      "quickDry": "Secado optimizado",
-      "petFriendly": "Cuidado para hogares con mascotas",
-      "odorControl": "Control de olores",
-      "scheduledMaintenance": "Mantenimiento programado",
-      "homeAndOffice": "Hogares y oficinas",
-      "quoteByPhoto": "Cotización por foto"
+      "freeDelivery": "Delivery gratuito previa conversación",
+      "threeToFiveDays": "Entrega de alfombras en 3 a 5 días",
+      "industrialProducts": "Productos industriales",
+      "disinfection": "Desinfección incluida",
+      "perfumedFinish": "Acabado perfumado",
+      "twentyYears": "20 años de experiencia"
     },
     "services": {
-      "sofaCleaning": {
-        "title": "Lavado de sofás",
-        "description": "Limpieza para sofás de uso diario, seccionales y sillones familiares."
-      },
-      "chairCleaning": {
-        "title": "Lavado de sillas",
-        "description": "Servicio ideal para comedores, sillas tapizadas y mobiliario de oficina."
-      },
-      "mattressCleaning": {
-        "title": "Lavado de colchones",
-        "description": "Limpieza enfocada en frescura, higiene y reducción de olores acumulados."
-      },
-      "rugCleaning": {
+      "carpetCleaning": {
         "title": "Lavado de alfombras",
-        "description": "Cuidado para alfombras y tapetes que reciben tráfico constante."
+        "description": "Servicio principal con recojo, lavado, desinfección, perfumado y entrega coordinada."
       },
-      "odorTreatment": {
-        "title": "Tratamiento de olores",
-        "description": "Proceso de apoyo para muebles con olores por humedad, mascotas o uso frecuente."
+      "wallToWallCarpet": {
+        "title": "Lavado de tapizones",
+        "description": "Limpieza para tapizones instalados en cuartos, oficinas y zonas de alto tránsito."
+      },
+      "upholsteryCleaning": {
+        "title": "Lavado de muebles",
+        "description": "Tratamiento para muebles tapizados con productos adecuados para uso frecuente."
+      },
+      "curtainCleaning": {
+        "title": "Lavado de cortinas",
+        "description": "Limpieza para cortinas de hogares y oficinas con atención al tipo de tela."
+      },
+      "officeCleaning": {
+        "title": "Cuartos y oficinas",
+        "description": "Atención para ambientes completos donde se requiere limpieza textil profesional."
       }
     },
     "testimonials": {
       "homeowner": {
-        "name": "Cliente residencial",
-        "text": "El sofá quedó con mejor apariencia y el proceso fue claro desde la cotización."
+        "name": "Cliente de hogar",
+        "text": "La alfombra volvió limpia, desinfectada y con buen aroma dentro del plazo coordinado."
       },
       "apartmentOwner": {
-        "name": "Dueña de apartamento",
-        "text": "Coordinaron rápido y trabajaron con cuidado dentro del espacio."
+        "name": "Cliente frecuente",
+        "text": "La experiencia se nota en el trato y en el cuidado del material."
       },
       "officeManager": {
-        "name": "Encargado de oficina",
-        "text": "Nos ayudaron a limpiar sillas de uso diario sin interrumpir la operación."
+        "name": "Cliente de oficina",
+        "text": "Nos ayudaron con tapizones de alto tránsito y coordinaron sin complicar el horario."
       }
     }
   }

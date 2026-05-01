@@ -56,27 +56,25 @@
 
 .brand-logo {
   line-height: 1;
+  display: grid;
+  gap: 0.18rem;
+  justify-items: start;
 }
 
-.brand-logo__word {
-  margin: 0;
-  font-size: clamp(1.45rem, 3vw, 2rem);
-  font-weight: 600;
-  color: var(--color-primary);
-  white-space: nowrap;
-}
-
-.brand-logo__word .accent {
-  color: var(--color-accent);
-  font-weight: 600;
+.brand-logo__mark {
+  width: clamp(9rem, 14vw, 12rem);
+  height: 3.4rem;
+  object-fit: contain;
+  object-position: left center;
+  display: block;
 }
 
 .brand-logo__sub {
-  margin: -0.15rem 0 0;
-  font-size: 0.75rem;
+  margin: 0;
+  font-size: 0.68rem;
   color: var(--color-primary);
   text-transform: uppercase;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.18em;
 }
 
 .header-links {
@@ -262,11 +260,11 @@
 
 .page-hero,
 .surface-section {
-  scroll-margin-top: 132px;
+  scroll-margin-top: 78px;
 }
 
 .page-hero {
-  background: linear-gradient(140deg, #f7f3ec 0%, #ece4d7 100%);
+  background: linear-gradient(140deg, #f8fcff 0%, #e7f4fb 54%, #d7edf8 100%);
 }
 
 .page-hero__inner {
@@ -750,7 +748,7 @@
   grid-template-columns: 1fr auto;
   gap: 1rem;
   align-items: center;
-  background: linear-gradient(120deg, #24342f 0%, #324841 100%);
+  background: linear-gradient(120deg, #06325c 0%, #0d4f8b 58%, #1686c5 100%);
   border-radius: 0.55rem;
   padding: 1.2rem;
 }
@@ -1023,6 +1021,11 @@
 }
 
 @media (max-width: 1024px) {
+  .page-hero,
+  .surface-section {
+    scroll-margin-top: 124px;
+  }
+
   .header-top {
     flex-wrap: wrap;
     padding: 0.65rem 0;
@@ -1103,6 +1106,11 @@
 }
 
 @media (max-width: 720px) {
+  .page-hero,
+  .surface-section {
+    scroll-margin-top: 146px;
+  }
+
   .header-top {
     flex-direction: column;
     align-items: flex-start;
