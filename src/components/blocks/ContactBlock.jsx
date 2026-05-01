@@ -86,7 +86,7 @@ function ContactBlock() {
           <article className="contact-panel">
             <iframe
               title={t("contactBlock.mapTitle")}
-              src="https://maps.google.com/maps?q=New%20Jersey&t=&z=11&ie=UTF8&iwloc=&output=embed"
+              src="https://maps.google.com/maps?q=Surco%2C%20Lima%2C%20Per%C3%BA&t=&z=13&ie=UTF8&iwloc=&output=embed"
               loading="lazy"
             />
           </article>
